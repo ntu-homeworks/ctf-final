@@ -84,7 +84,7 @@ class SilverBulletSolver(object):
 if __name__ == '__main__':
     solver = SilverBulletSolver(
         './Silver_Bullet/Silver_Bullet',
-        './Silver_Bullet/libc-5221435a058b204c3616b10dc7d7e6d0.so',
+        './Silver_Bullet/libc.so',
         remote('ctf.pwnable.tw', 4869)
     )
     solver.spawn_shell()
